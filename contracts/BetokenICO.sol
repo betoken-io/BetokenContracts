@@ -9,7 +9,6 @@ interface token {
 
 contract BetokenICO is Ownable {
     using SafeMath for uint256;
-    using SafeBonus for uint256;
 
     address public beneficiary;
     uint public fundingGoal;
